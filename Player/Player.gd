@@ -28,7 +28,7 @@ func _physics_process(_delta):
 			var bullet = Bullet.instance()
 			bullet.global_position=global_position
 			bullet.rotation = rotation
-			Effectsd.add_child(bullet)
+			Effects.add_child(bullet)
 	
 		
 		
